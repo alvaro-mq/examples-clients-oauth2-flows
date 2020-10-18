@@ -1,0 +1,29 @@
+{
+  "name": "examples-clients-oauth2-flows",
+  "version": "1.0.0",
+  "description": "ejemplos de uso de libreria openid-client para flujos oauth2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:client-credentials": "node flows/client-credentials",
+    "start:authorization-code": "node flows/authorization-code"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvaromamani/examples-clients-oauth2-flows.git"
+  },
+  "keywords": [
+    "openid-client",
+    "oauth2"
+  ],
+  "author": "alvaro.mamani.mq@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alvaromamani/examples-clients-oauth2-flows/issues"
+  },
+  "homepage": "https://github.com/alvaromamani/examples-clients-oauth2-flows#readme",
+  "dependencies": {
+    "fastify": "^3.6.0",
+    "openid-client": "^4.2.0"
+  }
+}
