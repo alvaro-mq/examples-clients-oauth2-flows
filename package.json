@@ -24,6 +24,7 @@
   "homepage": "https://github.com/alvaromamani/examples-clients-oauth2-flows#readme",
   "dependencies": {
     "fastify": "^3.6.0",
+    "open": "^7.3.0",
     "openid-client": "^4.2.0"
   }
 }
